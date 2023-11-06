@@ -128,8 +128,6 @@ async def main():
     max_results = 50
     min_subs = int(input(messages[lang]['input_min']))
     max_subs = int(input(messages[lang]['input_max']))
-
-    # Загрузите список использованных ключевых слов из файла (если он существует)
     used_keywords = load_used_keywords("database/used_keywords.txt")
 
     tasks = []
