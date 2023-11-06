@@ -1,0 +1,14 @@
+{
+    "Language": "eng",
+    "LanguageOptions": "ua - Ukranian, eng - English, ru - Russian",
+    "Subscribers": true,
+    "Channel views": true,
+    "Creation Date": true,
+    "Location": true,
+    "Last Video": true,
+    "VIPmode": true,
+    "GeoWhitelist": false,
+    "Whitelist": ["US","UK"],
+    "GeoBlacklist": true,
+    "Blacklist": ["IN","BD","VN","ID","PK","NG","ET","MM","AF","SD","GH","TZ","MZ","KH","UG","ZM","MW","BI","NE","LS","SL","NP","ML","BF","MR","SO","SS","SY","YE","HT","GN","RW","CD","ZW","ER","TL","AM","AZ","BY","KZ","KG","MD","RU","TJ","TM","UA","UZ","DZ","AO","BJ","BW","BF","BI","CV","CM","CF","TD","KM","CG","DJ","EG","GQ","SZ","ET","GA","GM","CI","KE","LR","LY","MG","ML","MR","MU","YT","MA","MZ","NA","NE","NG","RE","RW","ST","SN","SC","SO","ZA","SS","SD","TG","TN","UG"]
+}
