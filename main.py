@@ -65,7 +65,7 @@ def get_keywords(filename):
         return [line.strip() for line in file]
 
 
-# Определите множество для хранения использованных ключевых слов
+
 used_keywords = set()
 
 
@@ -121,7 +121,7 @@ def save_used_keywords(filename, keywords_set):
             file.write(keyword + "\n")
 
 
-# Загрузите список использованных ключевых слов из файла (если он существует)
+
 used_keywords = load_used_keywords("database/used_keywords.txt")
 
 messages = {
@@ -219,9 +219,7 @@ for api_key in api_keys:
                     print(f"An error occurred: {error}")
                     break
             finally:
-                # Независимо от результата, добавляем использованное ключевое слово в множество
                 used_keywords.add(keyword)
-                # Сохраняем обновленный список использованных ключевых слов в файл
                 save_used_keywords("used_keywords.txt", used_keywords)
 
     except HttpError:
